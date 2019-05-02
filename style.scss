@@ -15,7 +15,6 @@
 
 html {
   font-size: 100%;
-  overflow: auto;
 }
 
 body {
@@ -282,6 +281,15 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.highlight {
+  overflow: auto;
+
+  pre code {
+    font-weight: normal;
+    white-space: pre;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
