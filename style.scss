@@ -15,13 +15,13 @@
 
 html {
   font-size: 100%;
+  overflow: auto;
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  overflow:auto;
 }
 
 .container {
